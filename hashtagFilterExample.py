@@ -35,9 +35,9 @@ def search(twyObj, query=None):
 def main():
 	print("[+]hashtagFilterPy started")
 	#Insert your query here
-	query="#example"
+	customquery="#example"
 	t=auth()
-	search(t,query)
+	search(t,query=customquery)
 	return
 
 if(__name__=='__main__'): 
